@@ -28,21 +28,7 @@
 
 	</properties>
 
-	<distributionManagement>
 	
-	    <repository>
-	      <id>nexus</id>
-	      <name>maven Releases Nexus Repository</name>
-	      <url>http://13.232.140.203:8081/repository/maven-web-app-release/</url>
-	    </repository>
-	    
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>maven Snapshot Nexus Repository </name>
-	      <url>http://13.232.140.203:8081/repository/maven-web-app-snapshot/</url>
-	    </snapshotRepository>
-	    
-	</distributionManagement>
 	<dependencies>
 		
 		<dependency>
@@ -107,7 +93,21 @@
 		
 	</dependencies>
 	
+	<distributionManagement>
 	
+	    <repository>
+	      <id>nexus</id>
+	      <name>maven Releases Nexus Repository</name>
+	      <url>http://13.232.140.203:8081/repository/maven-web-app-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>maven Snapshot Nexus Repository</name>
+	      <url>http://13.232.140.203:8081/repository/maven-web-app-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 	
 	<build>
 		<finalName>maven-web-app</finalName>
