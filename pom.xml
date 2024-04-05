@@ -3,12 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mt</groupId>
-	<artifactId>maven-web-app1</artifactId>
+	<artifactId>maven-web-apps1</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.2-Release</version>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>maven-web-app1</artifactId>
+	<artifactId>maven-web-apps1</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.2-SNAPSHOT</version>
 	
